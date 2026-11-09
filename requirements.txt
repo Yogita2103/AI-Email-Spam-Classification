@@ -1,0 +1,10 @@
+# IMPORTANT: scikit-learn, numpy and pandas must match the versions on your laptop,
+# because the saved model (model/spam_pipeline.joblib) is trained locally and loaded on Render.
+# Check yours with the command in README.md, then edit the numbers below if they differ.
+Flask==3.1.3
+gunicorn==23.0.0
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+joblib==1.5.3
+matplotlib==3.10.8

@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets and editor/OS files
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw dataset archives (large; we only commit the cleaned CSV)
+data/raw/
